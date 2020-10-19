@@ -3,3 +3,5 @@ node_modules
 uploads/*
 !uploads/.gitkeep
 yarn-error.log
+.DS_Store
+dist

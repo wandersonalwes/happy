@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FiArrowRight } from 'react-icons/fi'
 
-import { Container } from '../styles/pages/Landing'
+import { Container } from '../styles/pages/landing'
 
 const Home = () => {
   return (

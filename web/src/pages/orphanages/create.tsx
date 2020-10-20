@@ -1,14 +1,14 @@
 import { FormEvent, ChangeEvent, useState } from 'react'
 import dynamic from 'next/dynamic'
-import Sidebar from '../../components/Sidebar'
+import Sidebar from '../../components/sidebar'
 import { FiPlus } from 'react-icons/fi'
 import { LeafletMouseEvent } from 'leaflet'
 import { useRouter } from 'next/router'
 import api from '../../services/api'
 
-import { Container } from '../../styles/pages/CreateOrphanage'
+import { Container } from '../../styles/pages/create-orphanage'
 
-const MapWithNoSSR = dynamic(() => import('../../components/Map'), {
+const MapWithNoSSR = dynamic(() => import('../../components/map'), {
   ssr: false
 })
 

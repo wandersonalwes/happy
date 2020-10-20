@@ -4,9 +4,9 @@ import { FiPlus } from 'react-icons/fi'
 
 import api from '../services/api'
 
-import { Container } from '../styles/pages/App'
+import { Container } from '../styles/pages/app'
 
-const MapWithNoSSR = dynamic(() => import('../components/Map'), {
+const MapWithNoSSR = dynamic(() => import('../components/map'), {
   ssr: false
 })
 

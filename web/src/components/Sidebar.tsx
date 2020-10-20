@@ -2,7 +2,7 @@ import React from 'react'
 import { FiArrowLeft } from 'react-icons/fi'
 import { useRouter } from 'next/router'
 
-import { Container } from '../styles/components/Sidebar'
+import { Container } from '../styles/components/sidebar'
 
 const Sidebar: React.FC = () => {
   const { back } = useRouter()

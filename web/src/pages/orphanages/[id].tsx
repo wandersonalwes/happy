@@ -2,15 +2,15 @@ import { useState } from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
 import { FiClock, FiInfo } from 'react-icons/fi'
 import dynamic from 'next/dynamic'
-import Sidebar from '../../components/Sidebar'
+import Sidebar from '../../components/sidebar'
 import { Orphanage } from '../../types'
 import { InferGetStaticPropsType } from 'next'
 
 import api from '../../services/api'
 
-import { Container } from '../../styles/pages/Orphanage'
+import { Container } from '../../styles/pages/orphanage'
 
-const MapWithNoSSR = dynamic(() => import('../../components/Map'), {
+const MapWithNoSSR = dynamic(() => import('../../components/map'), {
   ssr: false
 })
 
